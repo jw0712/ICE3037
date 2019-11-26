@@ -42,6 +42,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String result = data.getStringExtra("result");
             Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
         }
-
     }
 }
